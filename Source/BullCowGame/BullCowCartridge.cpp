@@ -37,7 +37,7 @@ void UBullCowCartridge::SetUpGame()
     bGameOver = false;
 
     PrintLine(TEXT("Guess the %i letter word"), HiddenWord.Len()); 
-    PrintLine(TEXT("The Hidden Word Is: %s. "), *HiddenWord); // Debug line we can toggle  
+    // PrintLine(TEXT("The Hidden Word Is: %s. "), *HiddenWord); // Debug line we can toggle  
     PrintLine(TEXT("You have %i lives."), Lives);  
     PrintLine(TEXT("Type in your guess and \nPress enter to continue...")); 
 }
